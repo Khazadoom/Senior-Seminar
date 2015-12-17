@@ -1,0 +1,47 @@
+﻿Build started 12/17/2015 12:40:57 AM.
+     1>Project "C:\Users\Brandon\Documents\Visual Studio 2015\Projects\SeniorSeminar-OneDriveNewest\SeniorSeminar\SeniorSeminar.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Visual Studio\VC\bin\CL.exe /c /I"C:\Users\Brandon\Documents\Visual Studio 2015\Projects\SeniorSeminar-OneDriveNewest\packages\DevIL.1.7.8\build\native\../..//build/native/include/" /I"C:\Users\Brandon\Documents\Visual Studio 2015\Projects\SeniorSeminar-OneDriveNewest\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/include/" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Checkers.cpp Mancala.cpp MancalaState.cpp Player.cpp SeniorProject.cpp
+         Checkers.cpp
+     1>c:\users\brandon\documents\visual studio 2015\projects\seniorseminar-onedrivenewest\seniorseminar\checkers.cpp(45): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\brandon\documents\visual studio 2015\projects\seniorseminar-onedrivenewest\seniorseminar\checkers.cpp(46): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\brandon\documents\visual studio 2015\projects\seniorseminar-onedrivenewest\seniorseminar\checkers.cpp(54): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\brandon\documents\visual studio 2015\projects\seniorseminar-onedrivenewest\seniorseminar\checkers.cpp(55): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\brandon\documents\visual studio 2015\projects\seniorseminar-onedrivenewest\seniorseminar\checkers.cpp(109): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+         Generating Code...
+         Compiling...
+         SeniorProject.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+         c:\users\brandon\documents\visual studio 2015\projects\seniorseminar-onedrivenewest\packages\nupengl.core.0.1.0.1\build\native\include\glfw\glfw3.h(92): note: see previous definition of 'APIENTRY'
+         Player.cpp
+     1>c:\users\brandon\documents\visual studio 2015\projects\seniorseminar-onedrivenewest\seniorseminar\player.cpp(87): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\brandon\documents\visual studio 2015\projects\seniorseminar-onedrivenewest\seniorseminar\player.cpp(132): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\brandon\documents\visual studio 2015\projects\seniorseminar-onedrivenewest\seniorseminar\player.cpp(145): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\brandon\documents\visual studio 2015\projects\seniorseminar-onedrivenewest\seniorseminar\player.cpp(395): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\brandon\documents\visual studio 2015\projects\seniorseminar-onedrivenewest\seniorseminar\player.cpp(408): warning C4018: '<': signed/unsigned mismatch
+         MancalaState.cpp
+     1>c:\users\brandon\documents\visual studio 2015\projects\seniorseminar-onedrivenewest\seniorseminar\mancalastate.cpp(113): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\brandon\documents\visual studio 2015\projects\seniorseminar-onedrivenewest\seniorseminar\mancalastate.cpp(114): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\brandon\documents\visual studio 2015\projects\seniorseminar-onedrivenewest\seniorseminar\mancalastate.cpp(119): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\brandon\documents\visual studio 2015\projects\seniorseminar-onedrivenewest\seniorseminar\mancalastate.cpp(135): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\brandon\documents\visual studio 2015\projects\seniorseminar-onedrivenewest\seniorseminar\mancalastate.cpp(151): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\brandon\documents\visual studio 2015\projects\seniorseminar-onedrivenewest\seniorseminar\mancalastate.cpp(191): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>c:\users\brandon\documents\visual studio 2015\projects\seniorseminar-onedrivenewest\seniorseminar\mancalastate.cpp(199): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\brandon\documents\visual studio 2015\projects\seniorseminar-onedrivenewest\seniorseminar\mancalastate.cpp(214): warning C4305: '=': truncation from 'double' to 'float'
+     1>c:\users\brandon\documents\visual studio 2015\projects\seniorseminar-onedrivenewest\seniorseminar\mancalastate.cpp(221): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+         Mancala.cpp
+         Generating Code...
+       Link:
+         D:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Brandon\Documents\Visual Studio 2015\Projects\SeniorSeminar-OneDriveNewest\Debug\SeniorSeminar.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\OneDrive\SeniorSeminar-OneDriveNewest\packages\DevIL.1.7.8\build\native\lib\Win32\dynamic\v110\Release" /LIBPATH:"D:\OneDrive\SeniorSeminar-OneDriveNewest\packages\DevIL.redist.1.7.8\build\native\bin\Win32\dynamic\v110\Release" /LIBPATH:"D:\OneDrive\SeniorSeminar-OneDriveNewest\packages\nupengl.core.0.1.0.1\build\native\include\GL" "C:\Users\Brandon\Documents\Visual Studio 2015\Projects\SeniorSeminar-OneDriveNewest\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\glew32.lib" "C:\Users\Brandon\Documents\Visual Studio 2015\Projects\SeniorSeminar-OneDriveNewest\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\glfw3dll.lib" "C:\Users\Brandon\Documents\Visual Studio 2015\Projects\SeniorSeminar-OneDriveNewest\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\freeglut.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Brandon\Documents\Visual Studio 2015\Projects\SeniorSeminar-OneDriveNewest\Debug\SeniorSeminar.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Brandon\Documents\Visual Studio 2015\Projects\SeniorSeminar-OneDriveNewest\Debug\SeniorSeminar.lib" /MACHINE:X86 Debug\CheckerState.obj
+         Debug\Checkers.obj
+         Debug\Mancala.obj
+         Debug\MancalaState.obj
+         Debug\Player.obj
+         Debug\SeniorProject.obj
+         Debug\StdAfx.obj
+         SeniorSeminar.vcxproj -> C:\Users\Brandon\Documents\Visual Studio 2015\Projects\SeniorSeminar-OneDriveNewest\Debug\SeniorSeminar.exe
+     1>Done Building Project "C:\Users\Brandon\Documents\Visual Studio 2015\Projects\SeniorSeminar-OneDriveNewest\SeniorSeminar\SeniorSeminar.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.25
